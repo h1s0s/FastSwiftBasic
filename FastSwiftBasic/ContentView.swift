@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var place: String = "Paris"
+    var name: String = "안준영"
+    
     var body: some View {
+        //Vstack : Vertical Stack
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(name + "님 안녕하세요!")
+            Text("\(name)님 안녕하세요!")
+            Text("안녕, 안준영?")
+            Text("안녕, 안준영?")
+            Text("안녕, 안준영?")
+            Text("안녕, 안준영?" + "안돼니?")
         }
         .padding()
+        
+
     }
 }
 

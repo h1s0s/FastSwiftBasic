@@ -14,6 +14,12 @@
 		45F312FA2B8075CA00B13BC1 /* FastSwiftBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F312F92B8075CA00B13BC1 /* FastSwiftBasicTests.swift */; };
 		45F313042B8075CA00B13BC1 /* FastSwiftBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F313032B8075CA00B13BC1 /* FastSwiftBasicUITests.swift */; };
 		45F313062B8075CA00B13BC1 /* FastSwiftBasicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F313052B8075CA00B13BC1 /* FastSwiftBasicUITestsLaunchTests.swift */; };
+		45F313132B807E3100B13BC1 /* VariableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F313122B807E3100B13BC1 /* VariableType.swift */; };
+		45F313152B80840900B13BC1 /* MyCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F313142B80840900B13BC1 /* MyCollections.swift */; };
+		45F313172B8097DD00B13BC1 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F313162B8097DD00B13BC1 /* Condition.swift */; };
+		45F313192B809CDE00B13BC1 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F313182B809CDE00B13BC1 /* Loop.swift */; };
+		45F3131D2B809E0000B13BC1 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3131C2B809E0000B13BC1 /* Function.swift */; };
+		45F3131F2B83883800B13BC1 /* Half.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3131E2B83883800B13BC1 /* Half.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		45F312FF2B8075CA00B13BC1 /* FastSwiftBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastSwiftBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F313032B8075CA00B13BC1 /* FastSwiftBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastSwiftBasicUITests.swift; sourceTree = "<group>"; };
 		45F313052B8075CA00B13BC1 /* FastSwiftBasicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastSwiftBasicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45F313122B807E3100B13BC1 /* VariableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableType.swift; sourceTree = "<group>"; };
+		45F313142B80840900B13BC1 /* MyCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollections.swift; sourceTree = "<group>"; };
+		45F313162B8097DD00B13BC1 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		45F313182B809CDE00B13BC1 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		45F3131C2B809E0000B13BC1 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		45F3131E2B83883800B13BC1 /* Half.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Half.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,12 @@
 				45F312EA2B8075C800B13BC1 /* ContentView.swift */,
 				45F312EC2B8075CA00B13BC1 /* Assets.xcassets */,
 				45F312EE2B8075CA00B13BC1 /* Preview Content */,
+				45F313122B807E3100B13BC1 /* VariableType.swift */,
+				45F313142B80840900B13BC1 /* MyCollections.swift */,
+				45F313162B8097DD00B13BC1 /* Condition.swift */,
+				45F313182B809CDE00B13BC1 /* Loop.swift */,
+				45F3131C2B809E0000B13BC1 /* Function.swift */,
+				45F3131E2B83883800B13BC1 /* Half.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F3131F2B83883800B13BC1 /* Half.swift in Sources */,
+				45F313132B807E3100B13BC1 /* VariableType.swift in Sources */,
 				45F312EB2B8075C800B13BC1 /* ContentView.swift in Sources */,
+				45F3131D2B809E0000B13BC1 /* Function.swift in Sources */,
 				45F312E92B8075C800B13BC1 /* FastSwiftBasicApp.swift in Sources */,
+				45F313192B809CDE00B13BC1 /* Loop.swift in Sources */,
+				45F313152B80840900B13BC1 /* MyCollections.swift in Sources */,
+				45F313172B8097DD00B13BC1 /* Condition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

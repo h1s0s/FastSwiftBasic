@@ -8,10 +8,27 @@
 import SwiftUI
 
 struct Function: View {
+    
+    @State var inputNumber: Int = 4
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("input number is \(inputNumber)")
+            
+            Button(action: {
+                inputNumber = plusFive(with: inputNumber)
+            }, label: {
+                Text("+5")
+            })
+        }
+    }
+    
+    func plusFive (with input: Int) -> Int {
+        return input + 5;
     }
 }
+
+
 
 #Preview {
     Function()
