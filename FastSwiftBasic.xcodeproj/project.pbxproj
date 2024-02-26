@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4569B6882B8781D200A4A5FB /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569B6872B8781D200A4A5FB /* Option.swift */; };
 		4569B68A2B87850300A4A5FB /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569B6892B87850300A4A5FB /* Sample.swift */; };
+		458318C52B8CC03500365147 /* MyGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458318C42B8CC03500365147 /* MyGeneric.swift */; };
 		4589ACF22B84CB5A00CC79A0 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4589ACF12B84CB5A00CC79A0 /* Elevator.swift */; };
 		4589ACF42B84D05A00CC79A0 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4589ACF32B84D05A00CC79A0 /* Diff.swift */; };
 		4589ACF62B84D65700CC79A0 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4589ACF52B84D65700CC79A0 /* Choice.swift */; };
@@ -51,6 +52,7 @@
 /* Begin PBXFileReference section */
 		4569B6872B8781D200A4A5FB /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 		4569B6892B87850300A4A5FB /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		458318C42B8CC03500365147 /* MyGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeneric.swift; sourceTree = "<group>"; };
 		4589ACF12B84CB5A00CC79A0 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 		4589ACF32B84D05A00CC79A0 /* Diff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diff.swift; sourceTree = "<group>"; };
 		4589ACF52B84D65700CC79A0 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				4569B6892B87850300A4A5FB /* Sample.swift */,
 				458E634E2B88E382004F7FD1 /* Exception.swift */,
 				458E63502B88E781004F7FD1 /* MyCar.swift */,
+				458318C42B8CC03500365147 /* MyGeneric.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				45F313152B80840900B13BC1 /* MyCollections.swift in Sources */,
 				45F313172B8097DD00B13BC1 /* Condition.swift in Sources */,
 				4589ACF22B84CB5A00CC79A0 /* Elevator.swift in Sources */,
+				458318C52B8CC03500365147 /* MyGeneric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
